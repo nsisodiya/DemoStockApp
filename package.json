@@ -4,6 +4,7 @@
   "main": "index.js",
   "config": {
     "presets": [
+      "neutrino-preset-airbnb-base",
       "neutrino-preset-react"
     ]
   },
@@ -16,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "neutrino": "^4.3.1",
-    "neutrino-lint-base": "^4.3.1",
+    "neutrino-preset-airbnb-base": "^4.3.1",
     "neutrino-preset-react": "^4.2.3"
   },
   "dependencies": {
