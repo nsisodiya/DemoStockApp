@@ -2,7 +2,25 @@
   "name": "DemoStockApp",
   "version": "1.0.0",
   "main": "index.js",
+  "config": {
+    "presets": [
+      "neutrino-preset-react"
+    ]
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "test": "neutrino test"
+  },
   "repository": "git@github.com:nsisodiya/DemoStockApp.git",
   "author": "Narendra Sisodiya <narendra@narendrasisodiya.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "neutrino": "^4.3.1",
+    "neutrino-lint-base": "^4.3.1",
+    "neutrino-preset-react": "^4.2.3"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
 }
