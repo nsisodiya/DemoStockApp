@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@nsisodiya/es6-mixins@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@nsisodiya/es6-mixins/-/es6-mixins-1.1.0.tgz#a17cb7c5c9e8c9d5c873eb11824eb89fbd70bb3e"
+
+"@nsisodiya/eventbus@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@nsisodiya/eventbus/-/eventbus-1.1.0.tgz#62deab92d58247d8bc56b7f9b290711ffa4ba98b"
+
+"@nsisodiya/flux@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@nsisodiya/flux/-/flux-1.1.0.tgz#7686b7b2b1d6a12aa6391064b79f5f648c5c094d"
+  dependencies:
+    "@nsisodiya/eventbus" "^1.1.0"
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -3092,6 +3106,10 @@ log-symbols@^1.0.2:
 longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
+
+loopobject@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/loopobject/-/loopobject-1.1.0.tgz#862162027dc310f95b6574c0fe28b3318d41b3b8"
 
 loose-envify@^1.0.0, loose-envify@^1.1.0:
   version "1.3.1"

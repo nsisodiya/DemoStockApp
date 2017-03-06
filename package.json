@@ -21,6 +21,9 @@
     "neutrino-preset-react": "^4.2.3"
   },
   "dependencies": {
+    "@nsisodiya/es6-mixins": "^1.1.0",
+    "@nsisodiya/flux": "^1.1.0",
+    "loopobject": "^1.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "styled-components": "^1.4.4"
