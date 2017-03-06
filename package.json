@@ -1,0 +1,8 @@
+{
+  "name": "DemoStockApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nsisodiya/DemoStockApp.git",
+  "author": "Narendra Sisodiya <narendra@narendrasisodiya.com>",
+  "license": "MIT"
+}
