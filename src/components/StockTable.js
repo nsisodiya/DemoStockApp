@@ -11,11 +11,10 @@ class StockTable extends Component {
   constructor() {
     super();
     this.store = TickerStore;
-    console.log('');
   }
 
   render() {
-    return <div>{JSON.stringify(this.state)}</div>;
+    return <pre>{JSON.stringify(this.state, null, "\t")}</pre>;
   }
 }
 mixin(StockTable, [StoreLoaderMixin]);
