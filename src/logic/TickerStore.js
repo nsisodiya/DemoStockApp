@@ -5,7 +5,7 @@
 
 import { createStore } from '@nsisodiya/flux';
 
-/* eslint no-param-reassign: ["warn"] */
+/* eslint no-param-reassign: ["off"] */
 
 const TickerStore = createStore({
   INIT(state) {
