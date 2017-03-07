@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 import mixin from '@nsisodiya/es6-mixins';
 import loopObject from 'loopobject';
-import Timeago from 'timeago.js';
+import timeAgo from 'simple-timeago';
 import StoreLoaderMixin from './StoreLoaderMixin';
 import TickerStore from '../logic/TickerStore';
 import TickerPrice from './TickerPrice';
@@ -42,7 +42,7 @@ class StockTable extends Component {
                   return <TickerPrice {...oldProps} newVal={v[v.length - 1].stockPrice}/>;
                 })()}
               </td>
-              <td>{new Timeago().format(v[v.length - 1].time)}</td>
+              <td>{timeAgo(new Date(v[v.length - 1].time))}</td>
             </tr>, true)
         }
         </tbody>
